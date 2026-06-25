@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Position Example</title>
+    <style>
+        div{
+            width:100px;
+            height:100px;
+            border:2px solid black;
+            margin:20px;
+        }
+
+        .static{
+            position:static;
+            background-color:red;
+        }
+
+        .relative{
+            position:relative;
+            top:20px;
+            left:30px;
+            background-color:blue;
+        }
+
+        .absolute{
+            position:absolute;
+            top:200px;
+            left:250px;
+            background-color:yellow;
+        }
+
+        .fixed{
+            position:fixed;
+            top:10px;
+            right:10px;
+            background-color:green;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="static">Static</div>
+
+    <div class="relative">Relative</div>
+
+    <div class="absolute">Absolute</div>
+
+    <div class="fixed">Fixed</div>
+
+</body>
+</html>

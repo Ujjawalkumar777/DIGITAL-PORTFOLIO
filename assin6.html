@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pricing Cards Preview</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    padding: 40px 16px;
+  }
+
+  .preview-box {
+    background-color: #d9fc10;
+    border-radius: 18px;
+    padding: 36px 20px 60px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .preview-label {
+    text-align: center;
+    color: #16c3dd;
+    letter-spacing: 3px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin: 0 0 36px;mm
+  }
+
+  .pricing-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+  }
+
+  .price-card {
+    flex: 1;
+    max-width: 160px;
+    background-color: #18dbb0;
+    border: 1px solid #1db7c8;
+    border-radius: 10px;
+    padding: 36px 16px;
+    text-align: center;
+  }
+
+  .price-card.featured {
+    border: 2px solid #2563eb;
+    padding: 56px 16px;
+    box-shadow: 0 12px 24px rgba(37, 99, 235, 0.15);
+  }
+
+  .plan-name {
+    margin: 0 0 18px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #0f172a;
+  }
+
+  .price-card.featured .plan-name {
+    color: #2563eb;
+  }
+
+  .plan-price {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #0f172a;
+  }
+</style>
+</head>
+<body>
+
+  <div class="preview-box">
+    <p class="preview-label">Preview</p>
+    <div class="pricing-cards">
+      <div class="price-card">
+        <p class="plan-name">Basic</p>
+        <p class="plan-price">₹0</p>
+      </div>
+      <div class="price-card featured">
+        <p class="plan-name">Pro</p>
+        <p class="plan-price">₹499</p>
+      </div>
+      <div class="price-card">
+        <p class="plan-name">Team</p>
+        <p class="plan-price">₹999</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
